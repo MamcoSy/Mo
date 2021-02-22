@@ -1,0 +1,41 @@
+{
+    "name": "mamadoualysy/mo",
+    "description": "A Simple php framework for building web applications",
+    "keywords": [
+        "Flex",
+        "Framework"
+    ],
+    "support": {
+        "source": "https://github.com/MamcoSy/Mo",
+        "wiki": "https://github.com/MamcoSy/Mo/wiki",
+        "issues": "https://github.com/MamcoSy/Mo/issues"
+    },
+    "readme": "",
+    "time": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mamadou Aly Sy",
+            "email": "mamco.aly.sy@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "ext-iconv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flex\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "Flex\\Tests\\": "./tests"
+    }
+}
