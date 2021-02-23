@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "mamadoualysy/mo",
     "description": "A Simple php framework for building web applications",
     "keywords": [
@@ -42,4 +43,47 @@
     "require-dev": {
         "spatie/phpunit-watcher": "^1.23"
     }
+=======
+  "name": "mamcosy/mo",
+  "description": "A simple php framework for building web application",
+  "keywords": [
+    "framework",
+    "php",
+    "Mo"
+  ],
+  "support": {
+    "source": "https://github.com/MamcoSy/Mo",
+    "wiki": "https://github.com/MamcoSy/Mo/wiki",
+    "issues": "https://github.com/MamcoSy/Mo/issues"
+  },
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MamcoSy",
+      "email": "mamco.aly.sy@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "alpha",
+  "require": {
+    "php": ">=7.4",
+    "ext-iconv": "*",
+    "ext-mbstring": "*",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mo\\": "./src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "./tests"
+    }
+  }
+>>>>>>> a30ba18876a20556148ffe43f932700bb150d506
 }

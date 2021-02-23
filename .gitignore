@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 .idea
 .vscode
 .history
 .env
 
 vendor/
+=======
+/vendor/
+>>>>>>> a30ba18876a20556148ffe43f932700bb150d506
