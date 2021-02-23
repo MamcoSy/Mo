@@ -28,7 +28,8 @@
         "ext-json": "*",
         "ext-curl": "*",
         "ext-simplexml": "*",
-        "ext-iconv": "*"
+        "ext-iconv": "*",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
@@ -37,5 +38,8 @@
     },
     "autoload-dev": {
         "Flex\\Tests\\": "./tests"
+    },
+    "require-dev": {
+        "spatie/phpunit-watcher": "^1.23"
     }
 }
