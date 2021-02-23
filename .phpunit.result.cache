@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":324:{a:2:{s:7:"defects";a:3:{s:27:"RequestTest::testNewRequest";i:4;s:32:"RequestTest::testNewRequestWhith";i:5;s:41:"RequestTest::testNewRequestWhithoutParams";i:4;}s:5:"times";a:3:{s:27:"RequestTest::testNewRequest";d:0.024;s:32:"RequestTest::testNewRequestWhith";d:0;s:41:"RequestTest::testNewRequestWhithoutParams";d:0.001;}}}
